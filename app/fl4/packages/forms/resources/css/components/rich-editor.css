@@ -1,0 +1,33 @@
+.fi-fo-rich-editor {
+    &.fi-fo-rich-editor-uploading-file {
+        @apply pointer-events-none cursor-wait opacity-50;
+    }
+
+    & .fi-fo-rich-editor-toolbar {
+        @apply relative flex gap-x-3 overflow-x-auto border-b border-gray-200 px-2.5 py-2 dark:border-white/10;
+
+        & .fi-fo-rich-editor-toolbar-group {
+            @apply flex gap-x-1;
+        }
+
+        & .fi-fo-rich-editor-toolbar-btn {
+            @apply flex h-8 min-w-8 cursor-pointer items-center justify-center rounded-lg text-sm font-semibold text-gray-700 transition duration-75 hover:bg-gray-50 focus-visible:bg-gray-50 dark:text-gray-200 dark:hover:bg-white/5 dark:focus-visible:bg-white/5;
+
+            &.fi-active {
+                @apply text-primary-600 dark:text-primary-400 bg-gray-50 dark:bg-white/5;
+            }
+        }
+    }
+
+    & .fi-fo-rich-editor-content {
+        @apply min-h-full w-full px-3 py-3;
+    }
+
+    & .tiptap:focus {
+        @apply outline-none;
+    }
+
+    & img.fi-loading {
+        @apply animate-pulse;
+    }
+}
