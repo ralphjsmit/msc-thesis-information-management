@@ -19,7 +19,7 @@ The repository contains the following contents:
   - `repository_months`: for each repository, the monthly statistics
   - `organization_months`: for each organization, the monthly statistics, including aggregated statistics for all projects
   - `panel_data_05_05_2025`: the panel-data as used in the paper
-  - `tags`: not used in the paper and incompelte, a list of tags for each repository 
+  - `tags`: not used in the paper and incomplete, a list of tags for each repository 
                                                                 
 ## Authors
 - Ralph J. Smit
